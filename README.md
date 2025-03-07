@@ -16,3 +16,10 @@ Requisitos:
     wl-copy para copiar los puertos abiertos al portapapeles.
 
 Este script es útil para realizar auditorías de seguridad básicas o para comprobar rápidamente los servicios disponibles en un servidor. 🚀
+
+Para Instalar nmap el Archlinux usa el siguiente comando 
+
+    sudo pacman -S nmap
+Tambien requieres la herramienta de clipboard de wayland que en archlinux se instala 
+
+    sudo pacman -S wl-clipboard
